@@ -19,7 +19,8 @@ server <- function(input, output) {
 
 app <- shinyApp(ui = ui, server = server)
 
-
+#Run it as a separate webpage
 shiny::runApp(app)
 
+#Run it in RStudios
 shiny::runGadget(app)
